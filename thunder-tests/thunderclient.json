@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "6e25e425-def4-449f-b182-561b89fde962",
+    "colId": "6415a04d-76c0-43d7-b542-2d6502ab6fa8",
+    "containerId": "",
+    "name": "Get all",
+    "url": "{{URL}}/pet",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-06-21T20:44:44.143Z",
+    "modified": "2023-06-21T20:45:01.538Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

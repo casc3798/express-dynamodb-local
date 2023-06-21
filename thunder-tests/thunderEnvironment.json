@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "941edd0f-4ae9-4e1f-ad2a-2894fbfe4c62",
+    "name": "DYNAMO LOCAL",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-06-21T20:44:14.352Z",
+    "modified": "2023-06-21T20:44:14.352Z",
+    "data": [
+      {
+        "name": "URL",
+        "value": "http://localhost:5000"
+      }
+    ]
+  }
+]
