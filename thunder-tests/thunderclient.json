@@ -12,5 +12,89 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "a8ebd08d-0069-4c13-9e7f-eed8aaca9f5b",
+    "colId": "6415a04d-76c0-43d7-b542-2d6502ab6fa8",
+    "containerId": "",
+    "name": "Get by id",
+    "url": "{{URL}}/pet/{id}",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-06-21T21:02:20.432Z",
+    "modified": "2023-06-21T21:10:24.301Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "id",
+        "value": "",
+        "isPath": true
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "20ea540d-c3da-4972-9e63-6585e035217c",
+    "colId": "6415a04d-76c0-43d7-b542-2d6502ab6fa8",
+    "containerId": "",
+    "name": "Create one",
+    "url": "{{URL}}/pet",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-06-21T21:04:12.403Z",
+    "modified": "2023-06-21T21:04:58.211Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Chloe\",\n  \"species\": \"cat\",\n  \"birthYear\": 2019\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "43a7a1cf-5a31-4885-8152-71d45d884759",
+    "colId": "6415a04d-76c0-43d7-b542-2d6502ab6fa8",
+    "containerId": "",
+    "name": "Delete one",
+    "url": "{{URL}}/pet/{id}",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-06-21T21:07:14.871Z",
+    "modified": "2023-06-21T21:13:01.999Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "id",
+        "value": "8533154d-265b-459a-8991-79a7b299a903",
+        "isPath": true
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "7423fb65-1355-4aed-a856-69668f52dd7f",
+    "colId": "6415a04d-76c0-43d7-b542-2d6502ab6fa8",
+    "containerId": "",
+    "name": "Update one",
+    "url": "{{URL}}/pet/{id}",
+    "method": "PUT",
+    "sortNum": 50000,
+    "created": "2023-06-21T21:09:09.182Z",
+    "modified": "2023-06-21T21:12:15.388Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "id",
+        "value": "8533154d-265b-459a-8991-79a7b299a903",
+        "isPath": true
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Tail\",\n  \"species\": \"cat\",\n  \"birthYear\": 2019\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
